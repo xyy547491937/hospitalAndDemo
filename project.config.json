@@ -1,0 +1,68 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": false,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"uglifyFileName": false
+	},
+	"miniprogramRoot": "dist/",
+	"compileType": "miniprogram",
+	"appid": "wxb35784c778465400",
+	"projectname": "xcx",
+	"libVersion": "2.5.0",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "娜娜",
+					"pathName": "pages/index",
+					"query": "taskId=0d3f75c172544e85bb94a18c1cff7680"
+				},
+				{
+					"id": 1,
+					"name": "线下扫码支付",
+					"pathName": "pagesShow/global/authorizationOne",
+					"query": "scene=Gz%2BQx728xOcwmR64ePieGQ%3D%3D",
+					"scene": 1047
+				},
+				{
+					"id": 2,
+					"name": "打开特定页面",
+					"pathName": "pagesShow/global/authorization",
+					"query": "",
+					"scene": "1047"
+				},
+				{
+					"id": -1,
+					"name": "打开文章详情页面",
+					"pathName": "pagesShow/information",
+					"query": "id=17092&type=10",
+					"scene": "1047"
+				}
+			]
+		}
+	}
+}
